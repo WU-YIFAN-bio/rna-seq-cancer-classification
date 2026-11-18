@@ -1,0 +1,26 @@
+{
+  "selected_model": "linear_svm",
+  "selected_feature_count_setting": 200,
+  "selected_C": 0.1,
+  "training_samples": 640,
+  "test_samples": 161,
+  "random_state": 42,
+  "cv_folds": 5,
+  "baseline_cv_macro_f1_mean": 0.10909090909090909,
+  "baseline_cv_macro_f1_std": 0.0,
+  "stability": {
+    "method": "ANOVA top-k selection under stratified subsampling",
+    "k": 200,
+    "repeats": 20,
+    "training_fraction": 0.8,
+    "mean_pairwise_jaccard": 0.8837053562549483
+  },
+  "test_metrics": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  "versions": {
+    "scikit-learn": "1.9.1",
+    "pandas": "3.1.0"
+  }
+}
